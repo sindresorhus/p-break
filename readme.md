@@ -2,16 +2,13 @@
 
 > Break out of a promise chain
 
-**This is an experiment. I personally wouldn't recommend this.**<br>
-Feedback wanted on the issue tracker.
-
 See ["How do I break out of a promise chain?"](https://github.com/sindresorhus/promise-fun#how-do-i-break-out-of-a-promise-chain) for a better way.
 
 
 ## Install
 
 ```
-$ npm install --save p-break
+$ npm install p-break
 ```
 
 

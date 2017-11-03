@@ -1,46 +1,43 @@
 {
-  "name": "p-break",
-  "version": "0.1.0",
-  "description": "Break out of a promise chain",
-  "license": "MIT",
-  "repository": "sindresorhus/p-break",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "promise",
-    "break",
-    "chain",
-    "out",
-    "return",
-    "early",
-    "if",
-    "conditional",
-    "error",
-    "thunk",
-    "function",
-    "async",
-    "await",
-    "promises",
-    "combinator",
-    "bluebird"
-  ],
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true
-  }
+	"name": "p-break",
+	"version": "0.1.0",
+	"description": "Break out of a promise chain",
+	"license": "MIT",
+	"repository": "sindresorhus/p-break",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"promise",
+		"break",
+		"chain",
+		"out",
+		"return",
+		"early",
+		"if",
+		"conditional",
+		"error",
+		"thunk",
+		"function",
+		"async",
+		"await",
+		"promises",
+		"combinator",
+		"bluebird"
+	],
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
 }
