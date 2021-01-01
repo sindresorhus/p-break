@@ -1,4 +1,4 @@
-# p-break [![Build Status](https://travis-ci.org/sindresorhus/p-break.svg?branch=master)](https://travis-ci.org/sindresorhus/p-break)
+# p-break
 
 > Break out of a promise chain
 
