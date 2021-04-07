@@ -4,20 +4,18 @@
 
 See ["How do I break out of a promise chain?"](https://github.com/sindresorhus/promise-fun#how-do-i-break-out-of-a-promise-chain) for a better way.
 
-
 ## Install
 
 ```
 $ npm install p-break
 ```
 
-
 ## Usage
 
 Here the `onlyRunConditional` promises are skipped if `conditional` is falsy:
 
 ```js
-const pBreak = require('p-break');
+import pBreak from 'p-break';
 
 alwaysRun1()
 	.then(() => alwaysRun2())
@@ -30,7 +28,6 @@ alwaysRun1()
 	.then(console.log);
 	//=> '🦄'
 ```
-
 
 ## API
 
@@ -46,13 +43,7 @@ Value to pass down the chain after `pBreak.end()`.
 
 Ends the break. Make sure not to have any other `.catch()` handlers between `pBreak()` and here.
 
-
 ## Related
 
 - [p-if](https://github.com/sindresorhus/p-if) - Conditional promise chains
 - [More…](https://github.com/sindresorhus/promise-fun)
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

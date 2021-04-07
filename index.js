@@ -1,13 +1,20 @@
-'use strict';
-
 class EndBreakError extends Error {
-	// eslint-disable-next-line unicorn/custom-error-definition
 	constructor(value) {
 		super();
 		this.value = value;
 	}
 }
 
-module.exports = val => Promise.reject(new EndBreakError(val));
+const pBreak = async value => {
+	throw new EndBreakError(value);
+};
 
-module.exports.end = err => err instanceof EndBreakError ? err.value : Promise.reject(err);
+pBreak.end = async error => {
+	if (error instanceof EndBreakError) {
+		return error.value;
+	}
+
+	throw error;
+};
+
+export default pBreak;
